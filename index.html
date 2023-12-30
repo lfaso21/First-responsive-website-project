@@ -1,41 +1,124 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Unplugged Retreat</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <meta name="theme-color" content="#fafafa" />
+  </head>
 
-  <meta name="theme-color" content="#fafafa">
-</head>
+  <body>
+    <!-- Add your site or application content here -->
+    <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
+    <!--Line of code that should be deleted but I just commented out-->
+    <header>
+      <div class="content-wrapper">
+        <a href="#">
+          <img src="img/unpluggedlogo.png"alt="unplugged logo"/>
+        </a>
+        <div class="header-divider"></div>
+        <nav>
+          <ul>
+            <li><a href="faq/index.html" rel="noopener">FAQ</a></li>
+            <li><a href="about/index.html" rel="noopener">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero-area"><!--added class="hero-area" to this tag-->
+        <div class="content-wrapper"><!--not hero image-->
+          <img src="img/unplugged-retreat.jpg" alt="Woman walking on a bridge"/>
+        </div>
+        <div class="hero-text">
+          <h1>Retreat from the desk, <br>return refreshed.</h1>
+        </div>
+      </section>
+      <aside>
+        <div class="content-wrapper">
+         <div class="form-description">
+           <h3>
+            Want to join the next retreat?
+           </h3>
+           <p>Find out when we are holding our next retreat and how your company or team can sign up!
+           </p>
+         </div>
+         <div class="form">
+           <h3>Find out more</h3>
+           <input type="text" name="name" value="email address">
+           <input type= "button" value="Download Itinerary">
+         </div>
+        </div>
+      </aside>
+    </main>
+    <!-- main wrapper-->
+    <footer>
+      <div class="content-wrapper">
+        <div class="footer-contact">
+          <div class="contact">
+            <h4>Contact</h4>
+            <address>
+             <p>555-555-5555<br><a href="hello@unplugged.com">hello@unplugged.com</a></p>
+            </address>
+          </div>
+          <div class="social">
+            <h4>Social</h4>
+            <div class="social-icons">
+             <ul>
+               <li>
+                 <a href="https://facebook.com" target="_blank">
+                   <img src="img/facebook.png" alt="Facebook" />
+                 </a>
+               </li>
+               <li>
+                 <a href="https://twitter.com/home" target="_blank">
+                   <img src="img/twitter.png" alt="Twitter" />
+                 </a>
+               </li>
+              <li>
+                 <a href="https://instagram.com" target="_blank">
+                   <img src="img/instagram.png" alt="Instagram" />
+                 </a>
+               </li>
+             </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright | Unplugged</p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
-<body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-</body>
-
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
 </html>
