@@ -626,6 +626,9 @@ input[type=button] {
   .content-section .content-wrapper h2 {
     width: 80%;
   }
+  .map figure {
+    padding-bottom: 45.5%;                /* me 55% them 45.5% - I need to use the min-width here tablet (768 tablet) */
+  } 
   .contact-content {
     display: flex;
     justify-content: space-between;
@@ -726,6 +729,9 @@ input[type=button] {
   }
   .contact-content h4 {              /* added 2-3 not sure from where */
     font-size: 1.875em;
+  }
+  .map figure {
+    padding-bottom: 37.5%;               /* Me 47% them 37.5%  I need to use the min-width for this (1200 -desktop) */
   }
   /*--------------------faq page--------------------*/
   .faq h2 {
